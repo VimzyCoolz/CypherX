@@ -12,7 +12,7 @@
     "allow-remote": "all"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node start-bypass.js",
     "dev": "nodemon cypher.js",
     "stop": "pkill -f node",
     "restart": "pkill -f node && npm start",
